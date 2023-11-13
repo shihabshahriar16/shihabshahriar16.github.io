@@ -11,6 +11,8 @@ body {
 
 @media (min-width:992px) {
     body {
+        max-width: 1366px;
+        margin: auto;
         padding-top: 0;
         padding-left: 17rem
     }
@@ -42,6 +44,12 @@ h2 {
     font-weight: 500;
     font-family: 'Saira Extra Condensed', serif;
     font-size: 1.35rem
+}
+
+.research h5,
+.research h6,
+.research p{
+    text-transform: none;
 }
 
 .list-social-icons a {
